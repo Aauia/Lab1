@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+@font-face {
+    font-family: 'Billabong'; /* Font name */
+    src: url('fonts/Billabong.otf') format('truetype'); /* Corrected */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.first-block {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 190px auto; /* Centers the block horizontally */
+    padding: 20px;
+    height: 45vh auto; /* Fixed */
+    margin-left: auto; /* Pushes the block to the right */
+    margin-right: 350px; /* Fixed */
+    margin-top: 8%;
+    border: 1px solid rgb(183, 181, 181);
+    text-align: center;
+}
+
+#instagramTitle {
+    font-family: 'Billabong', cursive; /* Now correctly referenced */
+    font-size: 50px;
+}
+
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px auto;
+}
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(91, 83, 83);
+}
+.text {
+    margin: 0 10px; /* Adds space around the text */
+}
+
+.second-block{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    margin: 5px auto;
+    padding-top: -100px  auto;
+}
+.inner1{
+    width: 87%;
+    margin: 10px auto;
+    padding-left: 2;
+    padding-right: 2;
+    margin: 20px auto;
+    
+}
+.inner2{
+    background-color: rgb(255, 255, 255); /* Sets the background color */
+    color: rgb(28, 27, 27); /* Makes the text white */
+    width: 95%; /* Explicitly sets the width */
+    margin:5px auto;
+    margin-left: 10px; /* Pushes the element to the right */
+    padding: 10px; /* Adjusts padding for better sizing */
+    border:1px solid rgb(149, 156, 156); /* Removes the default border */ /* Removes the default border */
+    font-size: 15px; /* Makes the text larger */
+
+    
+}
+.facebookClick {
+    display: flex; /* Makes the container a flexbox */
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the items (image and text) vertically */
+    width: 100%; /* Ensures the button spans the full width */
+    margin-top: 10px; /* Adjust spacing as needed */
+}
+
+.facebook-link {
+    display: inline-flex; /* Ensures the image and text are in-line */
+    align-items: center; /* Aligns the image and text vertically */
+    text-decoration: none; /* Removes the underline */
+    color: rgb(0, 89, 255); /* Sets the color for the link */
+    font-weight: bolder; /* Makes the text bold */
+    font-size: 15px; /* Adjusts font size */
+}
+
+.facebook-link img {
+    width: 20px; /* Set image size */
+    height: auto; /* Keeps the image aspect ratio */
+    margin-right: 5px; /* Adds space between the image and the text */
+}
+
+.facebook-link:hover {
+    color: darkblue; /* Optional: Change color on hover */
+}
+
+.innerVhod {
+    background-color: rgb(8, 94, 215); /* Sets the background color */
+    color: white; /* Makes the text white */
+    width: 95%; /* Explicitly sets the width */
+    margin: 0px auto;
+    margin-left: 10px; /* Pushes the element to the right */
+    margin-right: 20px; /* Adds space to the right edge */
+    padding: 10px; /* Adjusts padding for better sizing */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 17px; /* Makes the text larger */
+    text-align: center; /* Centers the text inside the button */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    font-weight: 500;
+}
+.innerVhod:hover {
+    color: rgb(60, 131, 213);
+}
+
+.forgotPassword {
+    text-decoration: none; /* Removes underline */
+    color: rgb(78, 90, 112); /* Sets the color for the link */
+    text-align: center;
+    margin-top: -5px; /* Adjust spacing as needed */
+    
+}
+
+.forgotPassword:hover {
+    color: darkblue;
+}
+.registrationBlock {
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    height: 5dvh;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 770px;
+    margin-top: -170px; /* Adjusted to move it higher */
+    border: 1px solid rgb(183, 181, 181);
+    margin-bottom: 5px;
+    font-size: 14px
+}
+
+
+#registration {
+    text-decoration: none;
+    color: rgb(3, 90, 253);
+    font-weight: bold;
+}
+#registration:hover {
+    color: darkblue;
+}
+
+.appInstallBlock{
+    background-color:rgb(255, 255, 255);
+    width: 22%;
+    height: 7dvh;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 770px;
+    margin-top: -2px; /* Adjusted to move it higher */
+    text-align: center;
+
+
+}
+.mainImage{
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 130px;
+    margin-top: -330px; /* Adjusted to move it higher */
+    
+}
+.CreateAccount {
+    background-color: rgb(48, 152, 24) ; /* Sets the background color */
+    color: white;  /* Makes the text white */
+    width: 45%; /* Explicitly sets the width */
+    height: 17%;
+    margin: 30px auto;
+    margin-left: 100px; /* Pushes the element to the right */
+    margin-right: 0px; /* Adds space to the right edge */
+    padding: 10px; /* Adjusts padding for better sizing */
+    border: none;/* Removes the default border */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 17px; /* Makes the text larger */
+    text-align: center; /* Centers the text inside the button */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    font-weight:600;
+}
+
+
+
+

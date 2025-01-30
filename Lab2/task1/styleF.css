@@ -1,0 +1,118 @@
+body {
+    background-color: #dbe1e7a5;
+    font-family: Arial, sans-serif;
+}
+
+#FacebookTitle {
+    color: rgb(0, 89, 255);
+    position: absolute;
+    top: 270px;
+    left: 400px;
+}
+
+#text {
+    color: rgb(25, 29, 36);
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.first-block {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    margin: 200px auto;
+    padding: 20px;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: 300;
+    border-radius: 5px;
+}
+
+#createText {
+    color: black;
+    position: absolute;
+    bottom: 230px;
+    left: 65%;
+    transform: translateX(-50%);
+    font-size: smaller;
+    font-weight: 500;
+    text-align: center;
+}
+
+.second-block {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.inner1 {
+    width: 87%;
+    margin: 20px auto;
+    padding-left: 2;
+    padding-right: 2;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.inner2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 27, 27);
+    width: 95%;
+    margin: 5px auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid rgb(149, 156, 156);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.innerVhod {
+    background-color: rgb(8, 94, 215);
+    color: white;
+    width: 95%;
+    margin: 0px auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.forgotPassword {
+    background-color: white;
+    color: rgb(8, 94, 215);
+    width: 95%;
+    margin: 0px auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 0px solid rgb(149, 156, 156);
+    border-bottom: 1px solid rgb(149, 156, 156);
+    border-radius: 5px;
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.CreateAccount {
+    background-color: rgb(48, 152, 24);
+    color: white;
+    width: 45%;
+    height: 17%;
+    margin: 30px auto;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
